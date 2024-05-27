@@ -174,7 +174,6 @@ entity DailyStats {=psl
   paidUserDelta                    Int             @default(0)
   totalRevenue                     Float             @default(0)
   totalProfit                      Float             @default(0)
-
   sources                          PageViewSource[]
 psl=}
 
@@ -192,7 +191,6 @@ psl=}
 entity Logs {=psl
   id                       Int             @id @default(autoincrement())
   createdAt                DateTime        @default(now())
-
   message                  String
   level                    String
 psl=}
