@@ -261,6 +261,12 @@ page FileUploadPage {
   component: import FileUpload from "@src/client/app/FileUploadPage"
 }
 
+route TestAppRoute { path: "/test-app", to: TestAppPage }
+page TestAppPage {
+  authRequired: true,
+  component: import TestApp from "@src/client/app/TestAppPage"
+}
+
 //#region Admin Pages
 route AdminRoute { path: "/admin", to: DashboardPage }
 page DashboardPage {
