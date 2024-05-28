@@ -1,12 +1,10 @@
 import React from 'react'
+import { Button } from '../../@/components/ui/button';
+
 
 const TestAppPage = () => {
   return (
-    <div className='py-10 lg:mt-10'>
-      <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-        <div>TestApp</div>
-      </div>
-    </div>
+        <Button>TestApp</Button>
   )
 }
 
