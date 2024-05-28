@@ -21,6 +21,9 @@
       "esnext"
     ],
     "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/@/*"],
+    },
     "allowJs": true,
     "typeRoots": [
       // This is needed to properly support Vitest testing with jest-dom matchers.
